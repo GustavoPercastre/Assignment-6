@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap');
 body
 {
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(103,252,70,1) 100%);
@@ -8,11 +11,24 @@ h1
     border-color: blue; 
     border-width: .25em; 
     border-style: double;
+    font-family: 'Pacifico', cursive;
 }
 section
 {
     border-color: darkred; 
     border-width: .25em; 
     border-style: inset;
-    margin: 2em;
+    margin: 5em;
+    background-color: darkorange;
+}
+h2
+{
+    font-family: 'Orbitron', sans-serif;
+}
+p
+{
+    border-style:solid;
+    border-color: darkblue;
+    margin: 5em;
+    font-family: 'Indie Flower', cursive;
 }
